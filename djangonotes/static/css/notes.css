@@ -1,0 +1,36 @@
+body {
+    max-width: 900px;
+    margin: auto;
+}
+
+.page-header h2 {
+    display: inline-block;
+}
+
+.page-header h2:first-child {
+    margin-right: 20px;
+}
+
+.page-header a {
+    text-decoration: none;
+    color: rgb(92, 82, 213);
+    transition: color 0.4s;
+}
+
+.page-header a:hover {
+    color: rgb(70, 61, 153);
+    transition: color 0.4s;
+}
+
+form > * {
+    display: block;
+    margin-bottom: 10px;
+}
+
+form textarea{
+    width:  100%;
+}
+
+form button {
+    float: right;
+}

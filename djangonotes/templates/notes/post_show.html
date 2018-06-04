@@ -2,4 +2,12 @@
 
 {% block content %}
 
+    {% for note in notes %}
+        <div class="note">
+        <ul>
+            <li>{{ note.text }}</li>
+        </ul>
+        </div>
+    {% endfor %}
+
 {% endblock %}

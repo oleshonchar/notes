@@ -2,6 +2,10 @@
 
 {% block content %}
 
-    <h1>hello world</h1>
+    <h1>New note</h1>
+    <form method="POST">{% csrf_token %}
+        {{ form }}
+        <button type="submit" class="save btn btn-default">Save</button>
+    </form>
 
 {% endblock %}
